@@ -1,26 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Annq",
+    "userName": "Anna",
     "email": "ann3@example.com",
-    "age": 31
+    "age": 31,
+    "password": "qweqwe"
   },
   {
     "id": 2,
-    "email": "maria@example.com",
-    "name": "Марія",
-    "age": 30
-  },
-  {
-    "id": 4,
-    "email": "www@example.com",
-    "name": "mAKS",
-    "age": 31
-  },
-  {
-    "id": 5,
-    "email": "maria3@example.com",
-    "name": "Марія3",
-    "age": 30
+    "userName": "Maks",
+    "email": "www@qwe.qe",
+    "password": "267",
+    "age": 27
   }
 ]
