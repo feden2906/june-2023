@@ -1,0 +1,47 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "JUNE 2023"
+  },
+  "paths": {
+    "/users": {
+      "get": {
+        "tags": ["User"],
+        "summary": "GET ALL USERS",
+        "parameters": [
+          {
+            "name": "age",
+            "in": "query",
+            "description": "user age",
+            "required": false,
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "received all users",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "User": {
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
